@@ -75,14 +75,20 @@ return items.size() == 1 ?
         String sql;
         Map<String, Object> fields = getFields(object);
         sql = SQLHelper.makeInsertQuery(fields, getTableName());
+
         return executeSave(sql, fields);
     }
     private Integer executeSave(String query, Map<String, Object> fields) throws Exception {
         try {
-            PreparedStatement preparedStatement = connection.prepareStatement(query);
+            PreparedStatement preparedStatement = connection.prepareStatement(query, Statement.RETURN_GENERATED_KEYS);
+                    prepare(preparedStatement, fields, getTableName());
             preparedStatement.executeUpdate();
-
-            return 1;
+            ResultSet resultSet = preparedStatement.getGeneratedKeys();
+            Integer generatedId = null;
+            while (resultSet.next()) {
+                generatedId = resultSet.getInt(1);
+            }
+            return generatedId;
         } catch (SQLException e) {
             throw new Exception(e.getMessage(), e);
         }

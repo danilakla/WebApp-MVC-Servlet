@@ -9,6 +9,7 @@ public class Person implements Serializable {
         this.phone=phone;
         this.email=email;
     }
+    public  Person(){}
     private  int id;
     private String name;
     private String phone;

@@ -12,6 +12,12 @@ public class User implements Serializable {
         this.login=login;
         this.passw=passw;
     }
+    public User( String login,byte[] passw){
+        this.id=id;
+        this.login=login;
+        this.passw=passw;
+    }
+
 
     public byte[] getPassw() {
         return passw;
@@ -23,5 +29,9 @@ public class User implements Serializable {
 
     public int getId() {
         return id;
+    }
+    @Override
+    public  String toString(){
+        return  login+" "+ passw.toString()+" ";
     }
 }

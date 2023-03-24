@@ -12,7 +12,7 @@ public class PersonService {
             PersonRepository personRepository = repositoryCreator.getPersonRepository();
             return personRepository.findAll();
         } catch (Exception e) {
-            throw new Exception();
+            throw  e;
         }
     }
     public void save(Person person) throws Exception {
@@ -20,7 +20,7 @@ public class PersonService {
             PersonRepository personRepository = repositoryCreator.getPersonRepository();
             personRepository.save(person);
         } catch (Exception exception) {
-            throw new Exception();
+            throw new Exception(exception.getMessage());
         }
     }
 }

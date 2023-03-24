@@ -12,7 +12,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class ConnectionPool {
 
     private static final String PROPERTY_PATH = "db";
-    private static final int INITIAL_CAPACITY = 10;
+    private static final int INITIAL_CAPACITY = 500;
     private ArrayBlockingQueue<Connection> freeConnections = new ArrayBlockingQueue<>(INITIAL_CAPACITY);
     private ArrayBlockingQueue<Connection> releaseConnections = new ArrayBlockingQueue<>(INITIAL_CAPACITY);
     private static ReentrantLock lock = new ReentrantLock();

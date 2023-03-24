@@ -33,10 +33,6 @@ public class PersonRepository extends AbstractRepository<Person> {
                 Optional.empty();
     }
 
-    @Override
-    public Integer save(Person object) throws Exception {
-        return null;
-    }
 
     public Map<String,Object> getFields(Person person) {
         Map<String,Object> fields = new HashMap<>();

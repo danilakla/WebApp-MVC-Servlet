@@ -32,10 +32,6 @@ public class UserRepository extends AbstractRepository <User>{
                 Optional.empty();
     }
 
-    @Override
-    public Integer save(User object) throws Exception {
-        return null;
-    }
 
     public Map<String,Object> getFields(User user) {
         Map<String,Object> fields = new HashMap<>();
