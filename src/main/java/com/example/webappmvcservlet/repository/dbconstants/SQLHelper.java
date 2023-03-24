@@ -25,4 +25,22 @@ public class SQLHelper {
             UserTableConstants.LOGIN.getFieldName() + " ," +
             UserTableConstants.PASSW.getFieldName() + ") VALUES (? , ?)";
 
-}
+    public static String makeInsertQuery(Map<String, Object> fields, String table) {
+        StringBuilder columns = new StringBuilder("(");
+        StringBuilder values = new StringBuilder("(");
+        for (Map.Entry<String, Object> entry : fields.entrySet()) {
+            String column = entry.getKey();
+            if (column.equals(ID)) {
+                continue;
+            }
+            columns.append(column).append(", ");
+            values.append("?, ");
+        }
+        values.deleteCharAt(values.lastIndexOf(","));
+        columns.deleteCharAt(columns.lastIndexOf(","));
+        values.append(")");
+        columns.append(")");
+    return  "";
+    }
+
+    }

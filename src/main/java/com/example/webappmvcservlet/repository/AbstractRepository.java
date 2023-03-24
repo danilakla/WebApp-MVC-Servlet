@@ -1,15 +1,13 @@
 package com.example.webappmvcservlet.repository;
 
 import com.example.webappmvcservlet.builder.Builder;
+import com.example.webappmvcservlet.builder.BuilderFactory;
+import com.example.webappmvcservlet.models.Person;
+import com.example.webappmvcservlet.models.User;
 import com.example.webappmvcservlet.repository.dbconstants.SQLHelper;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
+import java.sql.*;
+import java.util.*;
 
 
 public abstract class AbstractRepository<T> implements Repository<T>{
@@ -18,7 +16,7 @@ public abstract class AbstractRepository<T> implements Repository<T>{
     private final String WHERE_ID_CONDITION = " WHERE id_" + getTableName() + "=(?)";
     protected final String DELETE_QUERY = "DELETE from " + getTableName() + " where id_" + getTableName() + "=(?)";
     protected abstract String getTableName();
-    AbstractRepository(Connection connection) {
+    public AbstractRepository(Connection connection) {
         this.connection = connection;
     }
     // Prepare request with params
@@ -46,7 +44,7 @@ public abstract class AbstractRepository<T> implements Repository<T>{
             preparedStatement.setString(i++, String.valueOf(id));
         }
     }
-    List<T> executeQuery(String sql, Builder<T> builder, List<Object> parameters) throws Exception {
+    public List<T> executeQuery(String sql, Builder<T> builder, List<Object> parameters) throws Exception {
         List<T> objects = new ArrayList<>();
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
@@ -61,6 +59,41 @@ public abstract class AbstractRepository<T> implements Repository<T>{
         }
         return objects;
     }
+
+    protected Optional<T> executeQueryForSingleResult(String query, Builder<T> builder, List<Object> parameters) throws Exception {
+    List<T> items = executeQuery(query, builder, parameters);
+return items.size() == 1 ?
+        Optional.of(items.get(0)) :
+        Optional.empty();
+}
+
+
+
+    protected abstract Map<String, Object> getFields(T obj);
+    @Override
+    public Integer save(T object) throws Exception {
+        String sql;
+        Map<String, Object> fields = getFields(object);
+        sql = SQLHelper.makeInsertQuery(fields, getTableName());
+        return executeSave(sql, fields);
+    }
+    private Integer executeSave(String query, Map<String, Object> fields) throws Exception {
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement(query);
+            preparedStatement.executeUpdate();
+
+            return 1;
+        } catch (SQLException e) {
+            throw new Exception(e.getMessage(), e);
+        }
+    }
+
+    @Override
+public List<T> findAll() throws Exception {
+    Builder builder = BuilderFactory.create(getTableName());
+    String query = GET_ALL_QUERY + getTableName();
+    return executeQuery(query, builder, Collections.emptyList());
+}
 
 
 }

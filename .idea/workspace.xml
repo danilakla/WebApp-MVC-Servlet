@@ -9,220 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f27baf9-81af-4312-a5a2-2fd8ac5a73c9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/Jaba-4-sem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../java_10/.idea/java_10.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../java_11/.idea/java_11.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/builder/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/builder/BuilderFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/builder/PersonBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/builder/UserBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/models/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/AbstractRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/dbconstants/PersonTableConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/dbconstants/SQLHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/dbconstants/UserTableConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../java_13/.idea/java_13.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab2/lab2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab3/.idea/lab3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab4/.idea/lab4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/libs/testng-7.7.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/src/Broadcasting/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/src/Broadcasting/TestLab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_10/10/src/main/java/Servlet/Welcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_10/10/src/main/java/Servlet/Welcome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_10/10/src/main/java/db/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_10/10/src/main/java/db/DBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_10/10/target/_10-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_10/10/target/_10-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_10/10/target/_10-1.0-SNAPSHOT/WEB-INF/classes/db/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_10/10/target/_10-1.0-SNAPSHOT/WEB-INF/classes/db/DBConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_10/10/target/classes/db/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_10/10/target/classes/db/DBConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_11/_11/ModuleBL/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_11/_11/ModuleBL/src/main/java/entity/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_11/_11/ModuleBL/target/ModuleBL-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_11/_11/ModuleBL/target/classes/entity/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_11/_11/ModuleBL/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_11/_11/ModuleBL/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_11/_11/ModuleBL/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_11/_11/ModuleBL/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_11/_11/ModuleD/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_11/_11/ModuleD/src/main/java/Domain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_11/_11/ModuleD/target/ModuleD-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_11/_11/ModuleD/target/classes/Domain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_11/_11/ModuleD/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_11/_11/ModuleD/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_11/_11/ModuleD/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_11/_11/ModuleD/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_11/_11/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3f27baf9-81af-4312-a5a2-2fd8ac5a73c9" name="Changes" comment="Create Connection pool, builder for users and persons. Start implement Repository">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/RepositoryCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/connectionpool/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/connectionpool/ConnectionPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/_12.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/jakarta.servlet.jsp.jstl-api-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/mysql-connector-java-8.0.29.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/src/main/java/MyTag/First.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/src/main/java/MyTag/PrintTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/src/main/java/MyTag/Submit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/src/main/webapp/Tags/core.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/src/main/webapp/Tags/exam.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/src/main/webapp/Tags/formatting.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/src/main/webapp/Tags/forxml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/src/main/webapp/Tags/functions.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/src/main/webapp/Tags/sql.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/src/main/webapp/Tags/xml.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/src/main/webapp/WEB-INF/MyTag.tld" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/src/main/webapp/first.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/Tags/core.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/Tags/exam.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/Tags/formatting.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/Tags/forxml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/Tags/functions.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/Tags/sql.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/Tags/xml.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/WEB-INF/MyTag.tld" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/WEB-INF/classes/First.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/WEB-INF/classes/MyTag/First.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/WEB-INF/classes/MyTag/NEVprintTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/WEB-INF/classes/MyTag/NEVsubmit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/WEB-INF/classes/MyTag/PrintTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/WEB-INF/classes/MyTag/Submit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/WEB-INF/classes/com/example/_12/HelloServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/WEB-INF/lib/_12-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/WEB-INF/lib/jakarta.el-api-5.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp-api-2.3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp-api-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/WEB-INF/lib/jakarta.servlet.jsp.jstl-api-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/WEB-INF/lib/mssql-jdbc-10.2.0.jre17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.29.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/first.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/_12-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/classes/MyTag/First.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/classes/MyTag/PrintTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_12/target/classes/MyTag/Submit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_8/java 8_new.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_8/out/production/java 8_new/task1/Connect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_8/out/production/java 8_new/task1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_8/out/production/java 8_new/task2/Client/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_8/out/production/java 8_new/task2/Client/ClientThread$ReadMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_8/out/production/java 8_new/task2/Client/ClientThread$WriteMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_8/out/production/java 8_new/task2/Client/ClientThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_8/out/production/java 8_new/task2/Server/MessageStory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_8/out/production/java 8_new/task2/Server/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_8/out/production/java 8_new/task2/Server/ServerThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_8/out/production/java 8_new/task3/GetUDP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_8/out/production/java 8_new/task3/SendUDP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_8/src/task1/Connect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_8/src/task1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_8/src/task2/Client/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_8/src/task2/Client/ClientThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_8/src/task2/Server/MessageStory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_8/src/task2/Server/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_8/src/task2/Server/ServerThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_8/src/task3/GetUDP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_8/src/task3/SendUDP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/1.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/src/main/java/Servlet/AuthServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/src/main/java/Servlet/FirstServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/src/main/java/Servlet/GetCookies.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/src/main/java/Servlet/Help.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/src/main/java/Servlet/RegistrServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/src/main/java/Servlet/SecondServletGet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/src/main/java/Servlet/SecondServletPost.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/src/main/java/Servlet/Time.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/src/main/java/Servlet/for7task.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/src/main/java/Servlet/for7task2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/src/main/java/Servlet/for8task.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/src/main/java/User/Users.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/src/main/java/db/Configs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/src/main/java/db/DBConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/src/main/java/filter/AuthFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/src/main/webapp/admin_menu.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/src/main/webapp/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/src/main/webapp/registr.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/src/main/webapp/user_menu.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/src/mssql-jdbc-10.2.0.jre17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/src/mysql-connector-java-8.0.29.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/classes/Servlet/AuthServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/classes/Servlet/FirstServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/classes/Servlet/GetCookies.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/classes/Servlet/Help.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/classes/Servlet/RegistrServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/classes/Servlet/SecondServletGet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/classes/Servlet/SecondServletPost.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/classes/Servlet/Time.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/classes/Servlet/for7task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/classes/Servlet/for7task2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/classes/Servlet/for8task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/classes/User/Users.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/classes/db/Configs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/classes/db/DBConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/classes/filter/AuthFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/WEB-INF/classes/Servlet/AuthServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/WEB-INF/classes/Servlet/FirstServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/WEB-INF/classes/Servlet/GetCookies.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/WEB-INF/classes/Servlet/Help.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/WEB-INF/classes/Servlet/RegistrServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/WEB-INF/classes/Servlet/SecondServletGet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/WEB-INF/classes/Servlet/SecondServletPost.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/WEB-INF/classes/Servlet/Time.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/WEB-INF/classes/Servlet/for7task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/WEB-INF/classes/Servlet/for7task2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/WEB-INF/classes/Servlet/for8task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/WEB-INF/classes/User/Users.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/WEB-INF/classes/db/Configs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/WEB-INF/classes/db/DBConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/WEB-INF/classes/filter/AuthFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/WEB-INF/lib/mssql-jdbc-10.2.0.jre17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.29.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/admin_menu.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/registr.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_9/demo/target/demo-1.0-SNAPSHOT/user_menu.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab5/lab5.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab5/out/production/lab5/by/belstu/budanowa/CallCenter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab5/out/production/lab5/by/belstu/budanowa/Cars.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab5/out/production/lab5/by/belstu/budanowa/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab5/out/production/lab5/by/belstu/budanowa/RoadLane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab5/out/production/lab5/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab5/src/by/belstu/budanowa/CallCenter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab5/src/by/belstu/budanowa/Cars.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab5/src/by/belstu/budanowa/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab5/src/by/belstu/budanowa/RoadLane.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab5/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab7/lab7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7/lab7.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab7/out/production/lab7/Broadcasting/Broadcast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab7/out/production/lab7/Broadcasting/Cartoon$numbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7/out/production/lab7/Broadcasting/Cartoon$numbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab7/out/production/lab7/Broadcasting/Cartoon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab7/out/production/lab7/Broadcasting/IBroadcast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab7/out/production/lab7/Broadcasting/Info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab7/out/production/lab7/Broadcasting/Movies.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab7/out/production/lab7/Broadcasting/Series.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab7/out/production/lab7/Test/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7/out/production/lab7/Test/Tests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab7/src/Broadcasting/Broadcast.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab7/src/Broadcasting/Cartoon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab7/src/Broadcasting/IBroadcast.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab7/src/Broadcasting/Info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab7/src/Broadcasting/Movies.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab7/src/Broadcasting/Series.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab7/src/Test/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7/src/Test/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/AbstractRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/AbstractRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/dbconstants/SQLHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/dbconstants/SQLHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -363,11 +157,23 @@
       <option name="presentableId" value="Default" />
       <updated>1679686285813</updated>
       <workItem from="1679686287045" duration="2475000" />
-      <workItem from="1679688950805" duration="4134000" />
+      <workItem from="1679688950805" duration="6015000" />
     </task>
+    <task id="LOCAL-00001" summary="Create Connection pool, builder for users and persons. Start implement Repository">
+      <created>1679693153338</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679693153338</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create Connection pool, builder for users and persons. Start implement Repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Connection pool, builder for users and persons. Start implement Repository" />
   </component>
 </project>
