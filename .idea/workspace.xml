@@ -9,14 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f27baf9-81af-4312-a5a2-2fd8ac5a73c9" name="Changes" comment="Create Connection pool, builder for users and persons. Start implement Repository">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/PersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/RepositoryCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/UserRepository.java" afterDir="false" />
+    <list default="true" id="3f27baf9-81af-4312-a5a2-2fd8ac5a73c9" name="Changes" comment="Implement user, person repository">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/services/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/services/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/AbstractRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/AbstractRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/dbconstants/SQLHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/dbconstants/SQLHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +30,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -157,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679686285813</updated>
       <workItem from="1679686287045" duration="2475000" />
-      <workItem from="1679688950805" duration="6015000" />
+      <workItem from="1679688950805" duration="6835000" />
     </task>
     <task id="LOCAL-00001" summary="Create Connection pool, builder for users and persons. Start implement Repository">
       <created>1679693153338</created>
@@ -166,14 +163,33 @@
       <option name="project" value="LOCAL" />
       <updated>1679693153338</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implement user, person repository">
+      <created>1679695011962</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679695011962</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Connection pool, builder for users and persons. Start implement Repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Connection pool, builder for users and persons. Start implement Repository" />
+    <MESSAGE value="Implement user, person repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement user, person repository" />
   </component>
 </project>
