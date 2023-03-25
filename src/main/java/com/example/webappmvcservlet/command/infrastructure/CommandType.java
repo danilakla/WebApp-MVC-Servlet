@@ -1,5 +1,5 @@
 package com.example.webappmvcservlet.command.infrastructure;
-public enum Page {
+public enum CommandType {
     LOGIN("login"),
     SIGN_OUT("sign_out"),
     WELCOME("welcome"),
@@ -8,10 +8,7 @@ public enum Page {
     LOGIN_PAGE("login_page"),
     REGISTRATION_PAGE("registration_page");
     private String command;
-    public  String getPage(){
-        return this.command;
-    }
-    private Page(String command) {
+    private CommandType(String command) {
         this.command = command;
     }
 }

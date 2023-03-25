@@ -2,8 +2,8 @@ package com.example.webappmvcservlet.command;
 
 import com.example.webappmvcservlet.command.infrastructure.Command;
 import com.example.webappmvcservlet.command.infrastructure.CommandResult;
-import com.example.webappmvcservlet.command.infrastructure.Page;
 import com.example.webappmvcservlet.services.PersonService;
+import com.example.webappmvcservlet.util.Page;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
@@ -15,6 +15,6 @@ public class WelcomCommand implements Command {
         if(!data.isEmpty()) {
         request.setAttribute("group", data);
         }
-        return  new CommandResult(Page.WELCOME.getPage());
+        return  new CommandResult(Page.WELCOME_PAGE.getPage());
     }
 }

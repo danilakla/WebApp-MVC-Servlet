@@ -2,9 +2,9 @@ package com.example.webappmvcservlet.command;
 
 import com.example.webappmvcservlet.command.infrastructure.Command;
 import com.example.webappmvcservlet.command.infrastructure.CommandResult;
-import com.example.webappmvcservlet.command.infrastructure.Page;
 import com.example.webappmvcservlet.models.User;
 import com.example.webappmvcservlet.services.UserService;
+import com.example.webappmvcservlet.util.Page;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
@@ -18,15 +18,15 @@ import java.util.Optional;
 public class RegisterNewUserCommand implements Command {
     private CommandResult forwardToRegisterWithError(HttpServletRequest request, String ERROR, String ERROR_MESSAGE) {
         request.setAttribute(ERROR, ERROR_MESSAGE);
-        return new CommandResult(Page.REGISTRATION_PAGE.getPage(), false);
+        return new CommandResult(Page.REGISTER_PAGE.getPage(), false);
     }
     private CommandResult forwardToLogin(HttpServletRequest request) {
         return new CommandResult(Page.LOGIN_PAGE.getPage(), false);
     }
     @Override
     public CommandResult execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
-        Optional<String> login = request.getParameter("login").describeConstable();
-        Optional<String> password = request.getParameter("password").describeConstable();
+        Optional<String> login = Optional.of(request.getParameter("login"));
+        Optional<String> password = Optional.of(request.getParameter("password"));
 
         SecureRandom random = new SecureRandom();
         byte[] salt = new byte[16];

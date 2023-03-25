@@ -2,7 +2,7 @@ package com.example.webappmvcservlet.command;
 
 import com.example.webappmvcservlet.command.infrastructure.Command;
 import com.example.webappmvcservlet.command.infrastructure.CommandResult;
-import com.example.webappmvcservlet.command.infrastructure.Page;
+import com.example.webappmvcservlet.util.Page;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;

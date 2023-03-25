@@ -2,9 +2,9 @@ package com.example.webappmvcservlet.command;
 
 import com.example.webappmvcservlet.command.infrastructure.Command;
 import com.example.webappmvcservlet.command.infrastructure.CommandResult;
-import com.example.webappmvcservlet.command.infrastructure.Page;
 import com.example.webappmvcservlet.models.Person;
 import com.example.webappmvcservlet.services.PersonService;
+import com.example.webappmvcservlet.util.Page;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
@@ -18,14 +18,14 @@ public class AddNewPersonCommand implements Command {
 
         PersonService personService = new PersonService();
         Optional<String> newName = Optional.ofNullable(request.getParameter("name"));
-        Optional<String> newPhone = request.getParameter("password").describeConstable();
-        Optional<String> newEmail= request.getParameter("email").describeConstable();
+        Optional<String> newPhone = Optional.ofNullable(request.getParameter("password"));
+        Optional<String> newEmail= Optional.ofNullable(request.getParameter("email"));
 
             Person newperson = new Person(newName.get(), newPhone.get(), newEmail.get());
             personService.save(newperson);
 
         List<Person> clients = personService.findAll();
             request.setAttribute("group", clients);
-        return new CommandResult(Page.WELCOME.getPage(), false);
+        return new CommandResult(Page.WELCOME_PAGE.getPage(), false);
     }
 }
