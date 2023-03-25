@@ -1,11 +1,16 @@
 package com.example.webappmvcservlet;
 
 import java.io.*;
+import java.nio.file.attribute.UserPrincipal;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
 import com.example.webappmvcservlet.connectionpool.ConnectionPool;
+import com.example.webappmvcservlet.models.Person;
+import com.example.webappmvcservlet.models.User;
+import com.example.webappmvcservlet.services.PersonService;
+import com.example.webappmvcservlet.services.UserService;
 import jakarta.persistence.criteria.CriteriaBuilder;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.*;
@@ -23,21 +28,24 @@ public class HelloServlet extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
-        var connectionPool=ConnectionPool.getInstance();
-       var d= connectionPool.getConnection();
-       List<Integer> testS=new ArrayList<Integer>();
-        try {
-            var state=d.createStatement();
-            var rsult=state.executeQuery("SELECT  * FROM Persons;");
-            while (rsult.next()){
-                testS.add(rsult.getInt(4));
-            }
-            request.setAttribute("test", testS.get(0));
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
-        response.setContentType("text/html");
 
+        response.setContentType("text/html");
+        var v= new Person();
+        v.setEmail("email");
+        v.setName("danila");
+        v.setPhone("+3213213213");
+        var vu= new User("login danula","logind sa".getBytes());
+
+
+        try {
+  var data2=new UserService().login(vu.getLogin(),vu.getPassw());
+//request.setAttribute("LISTdat",data);
+            request.setAttribute("dtalogin",data2);
+            request.setAttribute("test",data2);
+
+        } catch (Exception e) {
+            throw new RuntimeException(e.getMessage());
+        }
         // Hello
         PrintWriter out = response.getWriter();
         try {
