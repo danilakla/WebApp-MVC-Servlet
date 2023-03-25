@@ -9,21 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f27baf9-81af-4312-a5a2-2fd8ac5a73c9" name="Changes" comment="link command and controller">
+    <list default="true" id="3f27baf9-81af-4312-a5a2-2fd8ac5a73c9" name="Changes" comment="save person in database">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/util/exception/IncorrectDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/command/AddNewPersonCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/command/AddNewPersonCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/command/LoginCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/command/LoginCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/command/RegisterNewUserCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/command/RegisterNewUserCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/command/SingOutCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/command/SingOutCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/command/WelcomCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/command/WelcomCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/command/infrastructure/CommandFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/command/infrastructure/CommandFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/models/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/util/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/util/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/errorPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/errorPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/registr.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/registr.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/welcome.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +23,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -96,7 +85,7 @@
       <recent name="D:\java\WebApp-MVC-Servlet\src\main\webapp" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.UnitTest.testFirst">
     <configuration name="GlassFish 7.0.2" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 7.0.2" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WebApp-MVC-Servlet-1.0-SNAPSHOT" />
       <deployment>
@@ -168,6 +157,32 @@
         </option>
       </method>
     </configuration>
+    <configuration name="UnitTest.PersonServiceTestSavePerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebApp-MVC-Servlet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UnitTest" />
+      <option name="METHOD_NAME" value="PersonServiceTestSavePerson" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTest.testFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebApp-MVC-Servlet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UnitTest" />
+      <option name="METHOD_NAME" value="testFirst" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UnitTest.testFirst" />
+        <item itemvalue="JUnit.UnitTest.PersonServiceTestSavePerson" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -179,7 +194,7 @@
       <updated>1679686285813</updated>
       <workItem from="1679686287045" duration="2475000" />
       <workItem from="1679688950805" duration="6015000" />
-      <workItem from="1679732600447" duration="15314000" />
+      <workItem from="1679732600447" duration="16614000" />
     </task>
     <task id="LOCAL-00001" summary="Create Connection pool, builder for users and persons. Start implement Repository">
       <created>1679693153338</created>
@@ -202,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679739351080</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="save person in database">
+      <created>1679754320987</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679754320987</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +245,8 @@
     <MESSAGE value="Create Connection pool, builder for users and persons. Start implement Repository" />
     <MESSAGE value="add command" />
     <MESSAGE value="link command and controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="link command and controller" />
+    <MESSAGE value="save person in database" />
+    <option name="LAST_COMMIT_MESSAGE" value="save person in database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
