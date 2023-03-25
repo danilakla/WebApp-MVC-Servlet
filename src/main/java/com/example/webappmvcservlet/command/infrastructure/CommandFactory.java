@@ -5,7 +5,7 @@ import com.example.webappmvcservlet.command.*;
 public class CommandFactory {
 
     public static Command create(String command) {
-        command = command.toUpperCase();
+        command = command.toLowerCase();
         System.out.println(command);
         Command resultCommand;
         switch (command) {
@@ -24,7 +24,7 @@ public class CommandFactory {
             case "login_page":{
                 resultCommand = new LoginPageCommand(); break;
             }
-            case "main_paeg":{
+            case "welcome":{
                 resultCommand = new WelcomCommand(); break;
             }
             case "registration_page":{

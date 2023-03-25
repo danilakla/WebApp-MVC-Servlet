@@ -1,3 +1,4 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%--
   Created by IntelliJ IDEA.
   User: yyyyt
@@ -20,7 +21,7 @@
         <li><a href="${pageContext.request.contextPath}/controller?command=login_page">Вход</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-        <li><a href="${pageContext.servletContext.contextPath}/controller?command=sign_out">Выход</a></li>
+        <li><a href="${pageContext.servletContext.contextPath}/controller?command=sing_out">Выход</a></li>
     </ul>
 </div>
 </nav>
@@ -41,11 +42,11 @@
         </c:forEach>
     </table>
     <p><font color="red">${errorMessage}</font></p>
-    <form method="POST" action="${pageContext.servletContext.contextPath}/controller?command=add_new_person">
+    <form method="POST" action="${pageContext.servletContext.contextPath}/controller?command=add_new_user">
         Новый :
-        <p> Введите имя <input name="nname" type="text" /> </p>
-        <p> Введите телефон <input name="nphone" type="text" /> </p>
-        <p> Введите email <input name="nemail" type="text" /> </p>
+        <p> Введите имя <input name="name" type="text" /> </p>
+        <p> Введите телефон <input name="phone" type="text" /> </p>
+        <p> Введите email <input name="email" type="text" /> </p>
         <input class ="button-main-page" value="Добавить" type="submit" />
     </form>
 </div>

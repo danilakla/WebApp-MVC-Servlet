@@ -12,6 +12,6 @@
 </head>
 <body>
 <h1>error page</h1>
-
+${error_message}
 </body>
 </html>

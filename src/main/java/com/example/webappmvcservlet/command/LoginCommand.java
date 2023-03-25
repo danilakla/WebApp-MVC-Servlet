@@ -21,25 +21,24 @@ public class LoginCommand implements Command {
 
     private void setAttributesToSession(String name, HttpServletRequest request) {
         HttpSession session = request.getSession();
-        session.setAttribute("NAME", name);
+        session.setAttribute("name", name);
     }
 
     @Override
     public CommandResult execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
         boolean isUserFind = false;
-        Optional<String> login =Optional.of(request.getParameter("login"));
-        Optional<String> password = Optional.of(request.getParameter("password"));
+
 
         //
         SecureRandom random = new SecureRandom();
         byte[] salt = new byte[16];
         random.nextBytes(salt);
-        KeySpec spec = new PBEKeySpec(password.get().toCharArray(), salt, 65536, 128);
+        KeySpec spec = new PBEKeySpec("password".toCharArray(), salt, 65536, 128);
         SecretKeyFactory f = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA1");
         byte[] hash = f.generateSecret(spec).getEncoded();
         Base64.Encoder enc = Base64.getEncoder();
         //
-        isUserFind = initializeUserIfExist(login.get(), hash, request);
+        isUserFind = initializeUserIfExist("dsads", hash, request);
             return new CommandResult("/controller?command=welcome", false);
 
     }
@@ -50,6 +49,7 @@ public class LoginCommand implements Command {
         boolean userExist = false;
         if (user.isPresent()) {
             setAttributesToSession(user.get().getLogin(), request);
+            request.setAttribute("username",user.get().getLogin());
             userExist = true;
         }
         return userExist;

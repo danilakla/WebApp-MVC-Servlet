@@ -11,8 +11,8 @@ public class SingOutCommand implements Command {
     @Override
     public CommandResult execute(HttpServletRequest request, HttpServletResponse response) throws Exception{
         HttpSession session = request.getSession();
-        String username = (String)session.getAttribute("NAME");
-        session.removeAttribute("NAME");
+        String username = (String)session.getAttribute("name");
+        session.removeAttribute("name");
         return new CommandResult(Page.LOGIN_PAGE.getPage(),false);
     }
 }

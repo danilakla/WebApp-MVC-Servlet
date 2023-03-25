@@ -17,10 +17,10 @@ public class Person implements Serializable {
         this.email=email;
     }
     public  Person(){}
-    private  int id;
-    private String name;
-    private String phone;
-    private String email;
+    public   int id;
+    public  String name;
+    public  String phone;
+    public  String email;
 
     public int getId() {
         return id;

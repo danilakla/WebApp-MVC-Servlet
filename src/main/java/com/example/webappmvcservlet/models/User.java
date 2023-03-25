@@ -3,8 +3,8 @@ package com.example.webappmvcservlet.models;
 import java.io.Serializable;
 
 public class User implements Serializable {
-    private int id;
-    private  String login;
+    public int id;
+    public   String login;
     private byte[] passw;
 
     public User(int id, String login,byte[] passw){

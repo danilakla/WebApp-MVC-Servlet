@@ -17,15 +17,15 @@ public class AddNewPersonCommand implements Command {
     public CommandResult execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
 
         PersonService personService = new PersonService();
-        Optional<String> newName = Optional.ofNullable(request.getParameter("name"));
-        Optional<String> newPhone = Optional.ofNullable(request.getParameter("password"));
-        Optional<String> newEmail= Optional.ofNullable(request.getParameter("email"));
+        Optional<String> newName = Optional.of(request.getParameter("name"));
+        Optional<String> newPhone = Optional.of(request.getParameter("password"));
+        Optional<String> newEmail = Optional.of(request.getParameter("email"));
 
-            Person newperson = new Person(newName.get(), newPhone.get(), newEmail.get());
-            personService.save(newperson);
+        Person newperson = new Person(newName.get(), newPhone.get(), newEmail.get());
+        personService.save(newperson);
 
         List<Person> clients = personService.findAll();
-            request.setAttribute("group", clients);
+        request.setAttribute("group", clients);
         return new CommandResult(Page.WELCOME_PAGE.getPage(), false);
     }
 }
