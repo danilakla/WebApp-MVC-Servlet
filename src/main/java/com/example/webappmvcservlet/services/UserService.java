@@ -28,7 +28,7 @@ public class UserService {
         try (RepositoryCreator repositoryCreator = new RepositoryCreator()) {
             UserRepository userRepository = repositoryCreator.getUserRepository();
             List<Object> param = new ArrayList<Object>();
-param.add(user.getLogin());
+            param.add(user.getLogin());
             if (!userRepository.queryForSingleData(SQLHelper.SQL_CHECK_LOGIN, param).isPresent()) {
                 return userRepository.save(user);
             } else {

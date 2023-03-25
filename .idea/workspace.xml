@@ -9,19 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f27baf9-81af-4312-a5a2-2fd8ac5a73c9" name="Changes" comment="init Services">
+    <list default="true" id="3f27baf9-81af-4312-a5a2-2fd8ac5a73c9" name="Changes" comment="Do save the user and list of contact, namely api">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/command/AddNewPersonCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/command/LoginCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/command/LoginPageCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/command/RegisterNewUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/command/RegisterPageCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/command/SingOutCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/command/WelcomCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/command/infrastructure/CommandResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/command/infrastructure/Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/builder/BuilderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/builder/BuilderFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/connectionpool/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/connectionpool/ConnectionPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/models/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/AbstractRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/AbstractRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/PersonRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/dbconstants/SQLHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/repository/dbconstants/SQLHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/services/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/services/PersonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/webappmvcservlet/services/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +31,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -70,7 +74,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/java/10labs",
+    "last_opened_file_path": "D:/java/WebApp-MVC-Servlet",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -163,7 +167,8 @@
       <option name="presentableId" value="Default" />
       <updated>1679686285813</updated>
       <workItem from="1679686287045" duration="2475000" />
-      <workItem from="1679688950805" duration="12436000" />
+      <workItem from="1679688950805" duration="6015000" />
+      <workItem from="1679732600447" duration="2480000" />
     </task>
     <task id="LOCAL-00001" summary="Create Connection pool, builder for users and persons. Start implement Repository">
       <created>1679693153338</created>
@@ -172,21 +177,7 @@
       <option name="project" value="LOCAL" />
       <updated>1679693153338</updated>
     </task>
-    <task id="LOCAL-00002" summary="Implement user, person repository">
-      <created>1679695011962</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1679695011962</updated>
-    </task>
-    <task id="LOCAL-00003" summary="init Services">
-      <created>1679695970786</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1679695970786</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,8 +196,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Connection pool, builder for users and persons. Start implement Repository" />
-    <MESSAGE value="Implement user, person repository" />
-    <MESSAGE value="init Services" />
-    <option name="LAST_COMMIT_MESSAGE" value="init Services" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Connection pool, builder for users and persons. Start implement Repository" />
   </component>
 </project>
